@@ -42,3 +42,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignoring platform-specific folders
+linux/
+macos/
+windows/
+web/
