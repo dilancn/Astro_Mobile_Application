@@ -1,23 +1,5 @@
-*.html linguist-detectable=false
-*.htm linguist-detectable=false
-
-
-
-
-
-
-
-# Ignore C++ files
-# *.cpp    export-ignore
-# *.hpp    export-ignore
-# *.cc     export-ignore
-# *.cxx    export-ignore
-# *.h      export-ignore
-
-# # Ignore CMake files
-# CMakeLists.txt  export-ignore
-# *.cmake         export-ignore
-
-# # Ignore HTML files
-# *.html   export-ignore
-# *.htm    export-ignore
+*.cpp  filter=blob
+*.hpp  filter=blob
+*.h    filter=blob
+CMakeLists.txt  filter=blob
+*.html filter=blob
