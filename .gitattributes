@@ -1,6 +1,14 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*.html linguist-detectable=false
-*.C++ linguist-detectable=false
-*.CMake linguist-detectable=false
-*.C linguist-detectable=false
+# Ignore C++ files
+*.cpp    export-ignore
+*.hpp    export-ignore
+*.cc     export-ignore
+*.cxx    export-ignore
+*.h      export-ignore
+
+# Ignore CMake files
+CMakeLists.txt  export-ignore
+*.cmake         export-ignore
+
+# Ignore HTML files
+*.html   export-ignore
+*.htm    export-ignore
